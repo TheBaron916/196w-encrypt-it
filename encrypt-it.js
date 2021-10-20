@@ -59,6 +59,8 @@ function randomCipher(text){
   return textEncrypted;
 }
 function reset(){
+  document.getElementById("input-text").textContent = "";
+  document.getElementById("result").textContent = "";
   console.log("reset");
 }
 function setFontSize(size){
